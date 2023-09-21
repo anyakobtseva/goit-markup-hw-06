@@ -15,7 +15,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
     <!--Page Header-->
@@ -33,8 +33,9 @@
             <li><a class="header-link" href="">Contacts</a></li>
           </ul>
         </nav>
+
         <address class="contacts">
-          <ul class="menu">
+          <ul class="menu tablet-menu">
             <li>
               <a class="contacts-link" href="mailto:info@devstudio.com">
                 info@devstudio.com</a
@@ -47,9 +48,20 @@
             </li>
           </ul>
         </address>
+        <button class="open-mobile-menu-btn">
+          <svg
+            class="open-mobile-menu-icon"
+            width="24"
+            height="24"
+            aria-label="mobile open menu icon"
+          >
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <!--Page Main-->
+
     <main>
       <section class="hero-section">
         <div class="container">
@@ -57,6 +69,7 @@
           <button class="hero-button" type="button">Order Service</button>
         </div>
       </section>
+
       <section class="benefit">
         <div class="container">
           <h2 class="visually-hidden">our advantages</h2>
@@ -67,6 +80,7 @@
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
+
               <h3 class="benefit-title">Strategy</h3>
               <p class="benefit-text">
                 Our goal is to identify the business problem to walk away with
@@ -79,6 +93,7 @@
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
+
               <h3 class="benefit-title">Punctuality</h3>
               <p class="benefit-text">
                 Bring the key message to the brand's audience for the best price
@@ -91,6 +106,7 @@
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
+
               <h3 class="benefit-title">Diligence</h3>
               <p class="benefit-text">
                 Research and confirm brands that present the strongest digital
@@ -103,6 +119,7 @@
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
+
               <h3 class="benefit-title">Technologies</h3>
               <p class="benefit-text">
                 Design practice focused on digital experiences. We bring forth a
@@ -112,6 +129,7 @@
           </ul>
         </div>
       </section>
+
       <section class="section-team">
         <div class="container">
           <h2 class="section-title">Our Team</h2>
@@ -371,6 +389,7 @@
           </ul>
         </div>
       </section>
+
       <section class="section-portfolio">
         <div class="container">
           <h2 class="section-title">Our Portfolio</h2>
@@ -378,9 +397,15 @@
             <li class="portfolio-list">
               <div class="portfolio-dark">
                 <img
+                  srcset="
+                    ./images-mobiel/mbankingapp.jpg              360w,
+                    ./images/desctop2x/dbankingapp@2x.jpg        720w,
+                    ./images/images-mobiel/mbankingapp.jpg       288w,
+                    ./images/images-mobiel/mbankingapp@2-min.jpg 576w
+                  "
+                  sizes="(min-width: 768px) 360px, (max-width: 767px) 288px"
                   src="./images/bankingapp.jpg"
                   alt="Banking App"
-                  width="360"
                   height="300"
                 />
                 <p class="overlay">
@@ -397,11 +422,17 @@
             <li class="portfolio-list">
               <div class="portfolio-dark">
                 <img
+                  srcset="
+                    ./images/desctop2x/dcashlesspayment@2x.jpg 720w,
+                    ./images/images-mobiel/mcashlesspayment.jpg 288w,
+                    ./images/images-mobiel/mcashlesspayment@2-min.jpg 576w
+                  "
+                  sizes="(min-width: 768px) 360px, (max-width: 767px) 288px"
                   src="./images/cashlesspayment.jpg"
                   alt="Cashless Payment"
-                  width="360"
                   height="300"
                 />
+
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -416,9 +447,15 @@
             <li class="portfolio-list">
               <div class="portfolio-dark">
                 <img
+                  srcset="
+                    ./images/meditationapp.jpg                      360w,
+                    ./images/desctop2x/dmeditationapp@2x.jpg        720w,
+                    ./images/images-mobiel/mmeditationapp.jpg       288w,
+                    ./images/images-mobiel/mmeditationapp@2-min.jpg 576w
+                  "
+                  sizes="(min-width: 768px) 360px, (max-width: 767px) 288px"
                   src="./images/meditationapp.jpg"
                   alt="Meditation App"
-                  width="360"
                   height="300"
                 />
                 <p class="overlay">
@@ -435,9 +472,15 @@
             <li class="portfolio-list">
               <div class="portfolio-dark">
                 <img
+                  srcset="
+                    ./images/taxiservice.jpg                      360w,
+                    ./images/desctop2x/dtaxiservice@2x.jpg        720w,
+                    ./images/images-mobiel/mtaxiservice.jpg       288w,
+                    ./images/images-mobiel/mtaxiservice@2-min.jpg 576w
+                  "
+                  sizes="(min-width: 768px) 360px, (max-width: 767px) 288px"
                   src="./images/taxiservice.jpg"
                   alt="Taxi Service"
-                  width="360"
                   height="300"
                 />
                 <p class="overlay">
@@ -454,9 +497,15 @@
             <li class="portfolio-list">
               <div class="portfolio-dark">
                 <img
+                  srcset="
+                    ./images/screenillustrations.jpg                      360w,
+                    ./images/desctop2x/dscreenillustrations@2x.jpg        720w,
+                    ./images/images-mobiel/mscreenillustrations.jpg       288w,
+                    ./images/images-mobiel/mscreenillustrations@2-min.jpg 576w
+                  "
+                  sizes="(min-width: 768px) 360px, (max-width: 767px) 288px"
                   src="./images/screenillustrations.jpg"
                   alt="Screen Illustrations"
-                  width="360"
                   height="300"
                 />
                 <p class="overlay">
@@ -473,9 +522,15 @@
             <li class="portfolio-list">
               <div class="portfolio-dark">
                 <img
+                  srcset="
+                    ./images/desctop2x/dbankingapp@2x.jpg 720w,
+                    ./images/images-mobiel/monlinecourses@2x-min.jpg 576w
+                    ./images/images-mobiel/monlinecourses.jpg 288w,
+                    ./images/onlinecourses.jpg                360w
+                  "
+                  sizes="(min-width: 768px) 360px, (max-width: 767px) 288px"
                   src="./images/onlinecourses.jpg"
                   alt="Woman with phone"
-                  width="360"
                   height="300"
                 />
                 <p class="overlay">
@@ -493,7 +548,9 @@
         </div>
       </section>
     </main>
+
     <!--Page Footer-->
+
     <footer class="footer">
       <div class="container cont-footer">
         <div class="container-one">
@@ -586,7 +643,8 @@
     </footer>
 
     <!-- BACKDROP WITH MODAL WINDOW -->
-    <div class="backdrop is-open">
+    <!--
+    <div class="backdrop">
       <div class="modal">
         <button class="close-btn" type="button">
           <svg
@@ -705,6 +763,223 @@
               <a class="review-form-privacy" href=""
                 >Privacy Policy</a
               >
+            </label>
+          </div>
+          <button class="review-form-submit" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+    -->
+
+    <!--MOBILE MENU is-open-->
+    <div class="container-mobile-menu">
+      <div class="mobile-menu">
+        <button class="mobile-menu-close-btn" type="button">
+          <svg
+            class="mobile-menu-close-icon"
+            width="8"
+            height="8"
+            aria-label="mobile menu close icon"
+          >
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <nav>
+          <ul class="mobile-menu-list">
+            <li>
+              <a class="mobile-menu-studio" href="./index.html">Studio</a>
+            </li>
+            <li><a class="mobile-menu-portfolio" href="">Portfolio</a></li>
+            <li><a class="mobile-menu-contacts" href="">Contacts</a></li>
+          </ul>
+        </nav>
+
+        <address class="mobile-menu-contacts">
+          <ul class="mobile-menu-address">
+            <li>
+              <a class="contacts-email" href="mailto:info@devstudio.com">
+                info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="contacts-mob" href="tel:+110001111111">
+                +11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+        <ul class="icon-list-mobile-menu">
+          <li class="icon-social">
+            <a class="footer-media" href="">
+              <svg
+                class="icon footer-list-soc"
+                width="24"
+                height="24"
+                aria-label="instagram"
+              >
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="icon-social">
+            <a class="footer-media" href="">
+              <svg
+                class="icon footer-list-soc"
+                width="24"
+                height="24"
+                aria-label="twitter"
+              >
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="icon-social">
+            <a class="footer-media" href="">
+              <svg
+                class="icon footer-list-soc"
+                width="24"
+                height="24"
+                aria-label="facebook"
+              >
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="icon-social">
+            <a class="footer-media" href="">
+              <svg
+                class="icon footer-list-soc"
+                width="24"
+                height="24"
+                aria-label="linkedin"
+              >
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- END MOBILE MENU-->
+    <!-- MOBILE BACKDROP WITH MODAL WINDOW is-open-->
+
+    <div class="backdrop">
+      <div class="modal">
+        <button class="close-btn" type="button">
+          <svg
+            class="close-btn-icon"
+            width="8"
+            height="8"
+            aria-label="modal close icon"
+          >
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="review-form-description">
+          Leave your contacts and we will call you back
+        </p>
+        <form class="review-form">
+          <div class="review-form-field-wrapper">
+            <label class="review-form-field-label" for="user-name">Name</label>
+            <div class="review-form-input-wrapper">
+              <input
+                class="review-form-input"
+                type="text"
+                id="user-name"
+                name="user-name"
+                pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
+                required
+              />
+              <svg
+                class="review-form-field-icon"
+                width="18"
+                height="24"
+                aria-label="user icon"
+              >
+                <use href="./images/icons.svg#user-name"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="review-form-field-wrapper">
+            <label class="review-form-field-label" for="user-phone"
+              >Phone</label
+            >
+            <div class="review-form-input-wrapper">
+              <input
+                class="review-form-input"
+                type="tel"
+                id="user-phone"
+                name="user_phone"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                title="xxx-xxx-xx-xx"
+                required
+              />
+              <svg
+                class="review-form-field-icon"
+                width="18"
+                height="24"
+                aria-label="phone icon"
+              >
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="review-form-field-wrapper">
+            <label class="review-form-field-label" for="user-email"
+              >Email</label
+            >
+            <div class="review-form-input-wrapper">
+              <input
+                class="review-form-input"
+                type="email"
+                id="user-email"
+                name="user_email"
+                required
+              />
+              <svg
+                class="review-form-field-icon"
+                width="18"
+                height="24"
+                aria-label="email icon"
+              >
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="review-form-field-wrapper div-comment">
+            <label class="review-form-field-label" for="user-comment">
+              Comment
+            </label>
+            <textarea
+              class="review-form-comment"
+              name="user-comment"
+              id="user-comment"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="review-form-checkbox-wrapper">
+            <input
+              class="review-form-checkbox visually-hidden"
+              type="checkbox"
+              id="user-privacy"
+              name="user-privacy"
+              value="true"
+              required
+            />
+            <label for="user-privacy" class="review-form-checkbox-label">
+              <span class="review-form-own-checkbox">
+                <svg
+                  class="review-form-own-checkbox-icon"
+                  width="10"
+                  height="8"
+                  aria-label="vector icon"
+                >
+                  <use href="./images/icons.svg#icon-vector"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a class="review-form-privacy" href="">Privacy Policy</a>
             </label>
           </div>
           <button class="review-form-submit" type="submit">Send</button>
