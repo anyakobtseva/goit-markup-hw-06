@@ -67,7 +67,7 @@
         height: auto;
     }
     .portfolio-list {
-        width: calc((100% - 72px) / 2);
+        width: calc((100% - 24px) / 2);
 
     }
     .portfolio-name {

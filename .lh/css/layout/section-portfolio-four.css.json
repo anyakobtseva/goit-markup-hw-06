@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 15,
+            "activePatchIndex": 16,
             "patches": [
                 {
                     "date": 1695283992855,
@@ -68,6 +68,10 @@
                 {
                     "date": 1695284478807,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,11 +56,9 @@\n     .portfolio {\n         flex-wrap: wrap;\n         display: flex;\n         gap: 72px 24px;\n-\n     }\n-\n     .section-portfolio {\n         background-color: var(--color-hero);\n         padding-top: 72px;\n     }\n"
+                },
+                {
+                    "date": 1695287020172,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,9 +51,8 @@\n @media screen and (min-width: 768px) {\n     .overlay {\n         display: none;\n     }\n-\n     .portfolio {\n         flex-wrap: wrap;\n         display: flex;\n         gap: 72px 24px;\n@@ -67,9 +66,9 @@\n         max-width: 100%;\n         height: auto;\n     }\n     .portfolio-list {\n-        width: calc((100% - 72px) / 2);\n+        width: calc((100% - px) / 2);\n \n     }\n     .portfolio-name {\n         font-size: 20px;\n"
                 }
             ],
             "date": 1695283992855,
