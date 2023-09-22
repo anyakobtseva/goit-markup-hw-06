@@ -2,15 +2,9 @@
   .icon-box {
     display: none;
   }
-
 .benefit {
     padding-top: 96px;
-  }
-  .benefits {
-    display: block;
-    gap: 72px;
-    margin-top: auto;
-    margin-bottom: auto;
+    padding-bottom: 24px;
   }
   .benefit-list {
     background-color: var(--color-hero);
@@ -29,14 +23,13 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-secondary);
-    padding-bottom: 72px;
+    margin-bottom: 72px;
   }
 }
   @media screen and (min-width: 768px) {
     .icon-box {
       display: none;
     }
-  
   .benefit {
       padding-top: 96px;
       padding-bottom: 96px;
@@ -46,14 +39,12 @@
       flex-wrap: wrap;
       justify-content: space-between;
       gap: 72px 24px;
-      
     }
     .benefit-list {
       width: calc((100% - 24px)/2);
       background-color: var(--color-hero);
     }
     .benefit-title {
-
       font-size: 36px;
       font-weight: 700;
       line-height: 1.1;
@@ -69,8 +60,7 @@
   
     }
   }
-
-  @media screen and (min-width: 1168px) {
+  @media screen and (min-width: 1158px) {
     .benefit {
       padding-top: 120px;
       padding-bottom: 120px;

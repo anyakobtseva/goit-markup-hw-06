@@ -9,7 +9,14 @@
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../../images/hero-office-mob.jpg);
+    -webkit-image-set(
+        url(../../images/images-mobile/mhero-office-mob.jpg) 1x,
+        url(../../images/images-mobile/mhero-office-mob@2x.jpg) 2x
+      ),
+      image-set(
+        url(../../images/images-mobile/mhero-office-mob.jpg) 1x,
+        url(../../images/images-mobile/mhero-office-mob@2x.jpg) 2x
+      );
   background-size: cover 320px 432px;
   background-repeat: no-repeat;
   background-position: center;
@@ -22,7 +29,7 @@
   line-height: 1.1;
   letter-spacing: 0.02em;
   color: var(--color-hero);
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   text-align: center;
   max-width: 190px;
   margin-right: auto;
@@ -52,7 +59,7 @@
   background-color: var(--color-active);
 }
 }
-@media screen and (min-width: 768px) and (max-width: 1167px) {
+@media screen and (min-width: 768px) and (max-width: 1157px) {
   .hero-section {
     background-color: var(--color-primary);
     text-align: center;
@@ -63,7 +70,14 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../../images/hero-office.jpg);
+      -webkit-image-set(
+        url(../../images/images-tablet/thero-office.jpg) 1x,
+        url(../../images/images-tablet/thero-office@2x.jpg) 2x
+      ),
+      image-set(
+        url(../../images/images-tablet/thero-office.jpg) 1x,
+        url(../../images/images-tablet/thero-office@2x.jpg) 2x
+      );
     background-size: cover 768px 436px;
     background-repeat: no-repeat;
     background-position: center;
@@ -75,7 +89,6 @@
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: var(--color-hero);
-    padding-bottom: 0px;
     text-align: center;
     margin: 0 auto 48px;
     max-width: 496px;
@@ -106,7 +119,7 @@
     background-color: var(--color-active);
   }
 }
-@media screen and (min-width: 1168px) {
+@media screen and (min-width: 1158px) {
 .hero-section {
     background-color: var(--color-primary);
     text-align: center;
@@ -117,12 +130,18 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../../images/hero-office.jpg);
+      -webkit-image-set(
+        url(../../images/hero-office.jpg) 1x,
+        url(../../images/desctop2x/hero-office2@x.jpg) 2x
+      ),
+      image-set(
+        url(../../images/hero-office.jpg) 1x,
+        url(../../images/desctop2x/hero-office2@x.jpg) 2x
+      );
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
   }
-
   .hero-title {
     font-size: 56px;
     font-weight: 700;

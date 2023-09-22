@@ -1,0 +1,162 @@
+{
+    "sourceFile": "css/layout/mobile-menu.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 36,
+            "patches": [
+                {
+                    "date": 1695327910192,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1695327921577,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,73 +1,72 @@\n .mobile-menu {\n-    position: fixed;\n-    left: 0;\n-    top: 0;\n-    z-index: 999999999;\n-    width: 100%;\n-    height: 100%;\n-    background-color: #fff; \n-    padding: 0 16px;\n-    transform: translateX(100%);\n-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);\n+  position: fixed;\n+  left: 0;\n+  top: 0;\n+  z-index: 999999999;\n+  width: 100%;\n+  height: 100%;\n+  background-color: #fff;\n+  padding: 0 16px;\n+  transform: translateX(100%);\n+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);\n }\n .mobile-menu.is-open {\n-    transform: translateX(0%);\n+  transform: translateX(0%);\n }\n \n .mobile-menu-close-btn {\n-    position: absolute;\n-    top: 24px;\n-    right: 24px;\n-    border: none;\n-    background-color: transparent;\n-    padding: 0;\n-    line-height: 0;\n+  position: absolute;\n+  top: 24px;\n+  right: 24px;\n+  border: none;\n+  background-color: transparent;\n+  padding: 0;\n+  line-height: 0;\n }\n \n .mobile-menu-list {\n-    display: flex;\n-    padding-top: 72px;\n-    padding-bottom: 168px;\n-    flex-direction: column;\n-    gap: 40px;\n+  display: flex;\n+  padding-top: 72px;\n+  padding-bottom: 168px;\n+  flex-direction: column;\n+  gap: 40px;\n }\n .mobile-menu-studio {\n-    font-size: 36px;\n-    font-weight: 700;\n-    line-height: 1.11; /* 111.111% */\n-    letter-spacing: 0.02em;\n-    text-transform: capitalize; \n-    color: #404bbf; \n-    \n+  font-size: 36px;\n+  font-weight: 700;\n+  line-height: 1.11; /* 111.111% */\n+  letter-spacing: 0.02em;\n+  text-transform: capitalize;\n+  color: #404bbf;\n }\n .mobile-menu-portfolio,\n .mobile-menu-contacts {\n\\ No newline at end of file\n-    font-size: 36px;\n-    font-weight: 700;\n-    line-height: 1.11; /* 111.111% */\n-    letter-spacing: 0.02em;\n-    text-transform: capitalize; \n-    color: #2e2f42; \n+  font-size: 36px;\n+  font-weight: 700;\n+  line-height: 1.11; /* 111.111% */\n+  letter-spacing: 0.02em;\n+  text-transform: capitalize;\n+  color: #2e2f42;\n }\n .contacts-mob {\n-font-size: 20px;\n-font-weight: 500;\n-line-height: 1.2; /* 120% */\n-letter-spacing: 0.02em;\n-color: #4D5AE5;\n+  font-size: 20px;\n+  font-weight: 500;\n+  line-height: 1.2; /* 120% */\n+  letter-spacing: 0.02em;\n+  color: #4d5ae5;\n }\n .contacts-email {\n-font-size: 20px;\n-font-weight: 500;\n-line-height: 1.2; /* 120% */\n-letter-spacing: 0.02em;\n-color: #434455;\n-padding-bottom: 24px;\n+  font-size: 20px;\n+  font-weight: 500;\n+  line-height: 1.2; /* 120% */\n+  letter-spacing: 0.02em;\n+  color: #434455;\n+  padding-bottom: 24px;\n }\n .icon-list-mobile-menu {\n-    display: flex;\n+  display: flex;\n   align-items: center;\n   justify-content: space-between;\n   padding-top: 48px;\n   gap: 40px;\n-}\n+}\n"
+                },
+                {
+                    "date": 1695327927242,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,12 +61,13 @@\n   line-height: 1.2; /* 120% */\n   letter-spacing: 0.02em;\n   color: #434455;\n   padding-bottom: 24px;\n+  text-transform: ;\n }\n .icon-list-mobile-menu {\n   display: flex;\n   align-items: center;\n   justify-content: space-between;\n   padding-top: 48px;\n   gap: 40px;\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1695327977444,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,8 @@\n   font-size: 36px;\n   font-weight: 700;\n   line-height: 1.11; /* 111.111% */\n   letter-spacing: 0.02em;\n-  text-transform: capitalize;\n   color: #2e2f42;\n }\n .contacts-mob {\n   font-size: 20px;\n"
+                },
+                {
+                    "date": 1695328045787,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,8 +48,9 @@\n   color: #2e2f42;\n }\n .contacts-mob {\n   font-size: 20px;\n+  fon\n   font-weight: 500;\n   line-height: 1.2; /* 120% */\n   letter-spacing: 0.02em;\n   color: #4d5ae5;\n@@ -60,13 +61,12 @@\n   line-height: 1.2; /* 120% */\n   letter-spacing: 0.02em;\n   color: #434455;\n   padding-bottom: 24px;\n-  text-transform: ;\n }\n .icon-list-mobile-menu {\n   display: flex;\n   align-items: center;\n   justify-content: space-between;\n   padding-top: 48px;\n   gap: 40px;\n-}\n\\ No newline at end of file\n+}\n"
+                },
+                {
+                    "date": 1695328071929,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,71 @@\n+.mobile-menu {\n+  position: fixed;\n+  left: 0;\n+  top: 0;\n+  z-index: 999999999;\n+  width: 100%;\n+  height: 100%;\n+  background-color: #fff;\n+  padding: 0 16px;\n+  transform: translateX(100%);\n+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);\n+}\n+.mobile-menu.is-open {\n+  transform: translateX(0%);\n+}\n+\n+.mobile-menu-close-btn {\n+  position: absolute;\n+  top: 24px;\n+  right: 24px;\n+  border: none;\n+  background-color: transparent;\n+  padding: 0;\n+  line-height: 0;\n+}\n+\n+.mobile-menu-list {\n+  display: flex;\n+  padding-top: 72px;\n+  padding-bottom: 168px;\n+  flex-direction: column;\n+  gap: 40px;\n+}\n+.mobile-menu-studio {\n+  font-size: 36px;\n+  font-weight: 700;\n+  line-height: 1.11; /* 111.111% */\n+  letter-spacing: 0.02em;\n+  text-transform: capitalize;\n+  color: #404bbf;\n+}\n+.mobile-menu-portfolio,\n+.mobile-menu-contacts {\n+  font-size: 36px;\n+  font-weight: 700;\n+  line-height: 1.11; /* 111.111% */\n+  letter-spacing: 0.02em;\n+  color: #2e2f42;\n+}\n+.contacts-mob {\n+  font-size: 20px;\n+  font-weight: 500;\n+  line-height: 1.2; /* 120% */\n+  letter-spacing: 0.02em;\n+  color: #4d5ae5;\n+}\n+.contacts-email {\n+  font-size: 20px;\n+  font-weight: 500;\n+  line-height: 1.2; /* 120% */\n+  letter-spacing: 0.02em;\n+  color: #434455;\n+  padding-bottom: 24px;\n+}\n+.icon-list-mobile-menu {\n+  display: flex;\n+  align-items: center;\n+  justify-content: space-between;\n+  padding-top: 48px;\n+  gap: 40px;\n+}\n"
+                },
+                {
+                    "date": 1695328144599,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,79 +13,9 @@\n .mobile-menu.is-open {\n   transform: translateX(0%);\n }\n \n-.mobile-menu-close-btn {\n-  position: absolute;\n-  top: 24px;\n-  right: 24px;\n-  border: none;\n-  background-color: transparent;\n-  padding: 0;\n-  line-height: 0;\n-}\n \n-.mobile-menu-list {\n-  display: flex;\n-  padding-top: 72px;\n-  padding-bottom: 168px;\n-  flex-direction: column;\n-  gap: 40px;\n-}\n-.mobile-menu-studio {\n-  font-size: 36px;\n-  font-weight: 700;\n-  line-height: 1.11; /* 111.111% */\n-  letter-spacing: 0.02em;\n-  text-transform: capitalize;\n-  color: #404bbf;\n-}\n-.mobile-menu-portfolio,\n-.mobile-menu-contacts {\n-  font-size: 36px;\n-  font-weight: 700;\n-  line-height: 1.11; /* 111.111% */\n-  letter-spacing: 0.02em;\n-  color: #2e2f42;\n-}\n-.contacts-mob {\n-  font-size: 20px;\n-  font-weight: 500;\n-  line-height: 1.2; /* 120% */\n-  letter-spacing: 0.02em;\n-  color: #4d5ae5;\n-}\n-.contacts-email {\n-  font-size: 20px;\n-  font-weight: 500;\n-  line-height: 1.2; /* 120% */\n-  letter-spacing: 0.02em;\n-  color: #434455;\n-  padding-bottom: 24px;\n-}\n-.icon-list-mobile-menu {\n-  display: flex;\n-  align-items: center;\n-  justify-content: space-between;\n-  padding-top: 48px;\n-  gap: 40px;\n-}\n-.mobile-menu {\n-  position: fixed;\n-  left: 0;\n-  top: 0;\n-  z-index: 999999999;\n-  width: 100%;\n-  height: 100%;\n-  background-color: #fff;\n-  padding: 0 16px;\n-  transform: translateX(100%);\n-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);\n-}\n-.mobile-menu.is-open {\n-  transform: translateX(0%);\n-}\n-\n .mobile-menu-close-btn {\n   position: absolute;\n   top: 24px;\n   right: 24px;\n@@ -112,16 +42,16 @@\n }\n .mobile-menu-portfolio,\n .mobile-menu-contacts {\n   font-size: 36px;\n+  font-style: normal;\n   font-weight: 700;\n   line-height: 1.11; /* 111.111% */\n   letter-spacing: 0.02em;\n   color: #2e2f42;\n }\n .contacts-mob {\n   font-size: 20px;\n-  fon\n   font-weight: 500;\n   line-height: 1.2; /* 120% */\n   letter-spacing: 0.02em;\n   color: #4d5ae5;\n"
+                },
+                {
+                    "date": 1695328149851,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,11 @@\n .mobile-menu.is-open {\n   transform: translateX(0%);\n }\n \n+.mobile-menu-address {\n+    margin: ;\n+}\n \n .mobile-menu-close-btn {\n   position: absolute;\n   top: 24px;\n"
+                },
+                {
+                    "date": 1695328156171,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n   transform: translateX(0%);\n }\n \n .mobile-menu-address {\n-    margin: ;\n+    margin: 24px;\n }\n \n .mobile-menu-close-btn {\n   position: absolute;\n"
+                },
+                {
+                    "date": 1695328185503,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,12 +13,8 @@\n .mobile-menu.is-open {\n   transform: translateX(0%);\n }\n \n-.mobile-menu-address {\n-    margin: 24px;\n-}\n-\n .mobile-menu-close-btn {\n   position: absolute;\n   top: 24px;\n   right: 24px;\n"
+                },
+                {
+                    "date": 1695376613908,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n \n .mobile-menu-list {\n   display: flex;\n   padding-top: 72px;\n-  padding-bottom: 168px;\n+ \n   flex-direction: column;\n   gap: 40px;\n }\n .mobile-menu-studio {\n"
+                },
+                {
+                    "date": 1695376661335,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n }\n \n .mobile-menu-list {\n   display: flex;\n-  padding-top: 72px;\n+\n  \n   flex-direction: column;\n   gap: 40px;\n }\n"
+                },
+                {
+                    "date": 1695376672286,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,8 @@\n \n .mobile-menu-list {\n   display: flex;\n \n- \n   flex-direction: column;\n   gap: 40px;\n }\n .mobile-menu-studio {\n"
+                },
+                {
+                    "date": 1695379175825,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n .mobile-menu {\n+  d\n   position: fixed;\n   left: 0;\n   top: 0;\n   z-index: 999999999;\n"
+                },
+                {
+                    "date": 1695379182688,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .mobile-menu {\n-  d\n+  display: flex;\n   position: fixed;\n   left: 0;\n   top: 0;\n   z-index: 999999999;\n"
+                },
+                {
+                    "date": 1695379189931,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n .mobile-menu {\n   display: flex;\n+  \n   position: fixed;\n   left: 0;\n   top: 0;\n   z-index: 999999999;\n"
+                },
+                {
+                    "date": 1695379200687,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .mobile-menu {\n   display: flex;\n-  \n+  f\n   position: fixed;\n   left: 0;\n   top: 0;\n   z-index: 999999999;\n"
+                },
+                {
+                    "date": 1695379206908,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .mobile-menu {\n   display: flex;\n-  f\n+  flex-direction: column;\n   position: fixed;\n   left: 0;\n   top: 0;\n   z-index: 999999999;\n"
+                },
+                {
+                    "date": 1695379284177,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n .mobile-menu {\n   display: flex;\n   flex-direction: column;\n   position: fixed;\n+  \n   left: 0;\n   top: 0;\n   z-index: 999999999;\n   width: 100%;\n"
+                },
+                {
+                    "date": 1695379303743,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .mobile-menu {\n   display: flex;\n   flex-direction: column;\n   position: fixed;\n-  \n+  padding-top: 72px;\n   left: 0;\n   top: 0;\n   z-index: 999999999;\n   width: 100%;\n"
+                },
+                {
+                    "date": 1695379314795,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n   display: flex;\n   flex-direction: column;\n   position: fixed;\n   padding-top: 72px;\n+  \n   left: 0;\n   top: 0;\n   z-index: 999999999;\n   width: 100%;\n"
+                },
+                {
+                    "date": 1695379325227,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n   display: flex;\n   flex-direction: column;\n   position: fixed;\n   padding-top: 72px;\n-  \n+  padding-left: ;\n   left: 0;\n   top: 0;\n   z-index: 999999999;\n   width: 100%;\n"
+                },
+                {
+                    "date": 1695379332600,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,75 @@\n+.mobile-menu {\n+  display: flex;\n+  flex-direction: column;\n+  position: fixed;\n+  padding-top: 72px;\n+  padding-left: 16px;\n+  left: 0;\n+  top: 0;\n+  z-index: 999999999;\n+  width: 100%;\n+  height: 100%;\n+  background-color: #fff;\n+  padding: 0 16px;\n+  transform: translateX(100%);\n+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);\n+}\n+.mobile-menu.is-open {\n+  transform: translateX(0%);\n+}\n+\n+.mobile-menu-close-btn {\n+  position: absolute;\n+  top: 24px;\n+  right: 24px;\n+  border: none;\n+  background-color: transparent;\n+  padding: 0;\n+  line-height: 0;\n+}\n+\n+.mobile-menu-list {\n+  display: flex;\n+\n+  flex-direction: column;\n+  gap: 40px;\n+}\n+.mobile-menu-studio {\n+  font-size: 36px;\n+  font-weight: 700;\n+  line-height: 1.11; /* 111.111% */\n+  letter-spacing: 0.02em;\n+  text-transform: capitalize;\n+  color: #404bbf;\n+}\n+.mobile-menu-portfolio,\n+.mobile-menu-contacts {\n+  font-size: 36px;\n+  font-style: normal;\n+  font-weight: 700;\n+  line-height: 1.11; /* 111.111% */\n+  letter-spacing: 0.02em;\n+  color: #2e2f42;\n+}\n+.contacts-mob {\n+  font-size: 20px;\n+  font-weight: 500;\n+  line-height: 1.2; /* 120% */\n+  letter-spacing: 0.02em;\n+  color: #4d5ae5;\n+}\n+.contacts-email {\n+  font-size: 20px;\n+  font-weight: 500;\n+  line-height: 1.2; /* 120% */\n+  letter-spacing: 0.02em;\n+  color: #434455;\n+  padding-bottom: 24px;\n+}\n+.icon-list-mobile-menu {\n+  display: flex;\n+  align-items: center;\n+  justify-content: space-between;\n+  padding-top: 48px;\n+  gap: 40px;\n+}\n"
+                },
+                {
+                    "date": 1695379338070,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n   flex-direction: column;\n   position: fixed;\n   padding-top: 72px;\n   padding-left: 16px;\n+  pa\n   left: 0;\n   top: 0;\n   z-index: 999999999;\n   width: 100%;\n@@ -72,79 +73,4 @@\n   justify-content: space-between;\n   padding-top: 48px;\n   gap: 40px;\n }\n-.mobile-menu {\n-  display: flex;\n-  flex-direction: column;\n-  position: fixed;\n-  padding-top: 72px;\n-  padding-left: ;\n-  left: 0;\n-  top: 0;\n-  z-index: 999999999;\n-  width: 100%;\n-  height: 100%;\n-  background-color: #fff;\n-  padding: 0 16px;\n-  transform: translateX(100%);\n-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);\n-}\n-.mobile-menu.is-open {\n-  transform: translateX(0%);\n-}\n-\n-.mobile-menu-close-btn {\n-  position: absolute;\n-  top: 24px;\n-  right: 24px;\n-  border: none;\n-  background-color: transparent;\n-  padding: 0;\n-  line-height: 0;\n-}\n-\n-.mobile-menu-list {\n-  display: flex;\n-\n-  flex-direction: column;\n-  gap: 40px;\n-}\n-.mobile-menu-studio {\n-  font-size: 36px;\n-  font-weight: 700;\n-  line-height: 1.11; /* 111.111% */\n-  letter-spacing: 0.02em;\n-  text-transform: capitalize;\n-  color: #404bbf;\n-}\n-.mobile-menu-portfolio,\n-.mobile-menu-contacts {\n-  font-size: 36px;\n-  font-style: normal;\n-  font-weight: 700;\n-  line-height: 1.11; /* 111.111% */\n-  letter-spacing: 0.02em;\n-  color: #2e2f42;\n-}\n-.contacts-mob {\n-  font-size: 20px;\n-  font-weight: 500;\n-  line-height: 1.2; /* 120% */\n-  letter-spacing: 0.02em;\n-  color: #4d5ae5;\n-}\n-.contacts-email {\n-  font-size: 20px;\n-  font-weight: 500;\n-  line-height: 1.2; /* 120% */\n-  letter-spacing: 0.02em;\n-  color: #434455;\n-  padding-bottom: 24px;\n-}\n-.icon-list-mobile-menu {\n-  display: flex;\n-  align-items: center;\n-  justify-content: space-between;\n-  padding-top: 48px;\n-  gap: 40px;\n-}\n"
+                },
+                {
+                    "date": 1695379345273,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   flex-direction: column;\n   position: fixed;\n   padding-top: 72px;\n   padding-left: 16px;\n-  pa\n+  padding-bottom: 40px;\n   left: 0;\n   top: 0;\n   z-index: 999999999;\n   width: 100%;\n"
+                },
+                {
+                    "date": 1695379353589,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n   position: fixed;\n   padding-top: 72px;\n   padding-left: 16px;\n   padding-bottom: 40px;\n+  padding-right: 1;\n   left: 0;\n   top: 0;\n   z-index: 999999999;\n   width: 100%;\n"
+                },
+                {
+                    "date": 1695379363284,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,12 @@\n .mobile-menu {\n   display: flex;\n   flex-direction: column;\n-  position: fixed;\n+  \n   padding-top: 72px;\n   padding-left: 16px;\n   padding-bottom: 40px;\n-  padding-right: 1;\n+  padding-right: 16px;\n   left: 0;\n   top: 0;\n   z-index: 999999999;\n   width: 100%;\n"
+                },
+                {
+                    "date": 1695379384576,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n .mobile-menu {\n   display: flex;\n   flex-direction: column;\n-  \n+  position: fixed;\n   padding-top: 72px;\n   padding-left: 16px;\n   padding-bottom: 40px;\n   padding-right: 16px;\n"
+                },
+                {
+                    "date": 1695379407160,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,10 +5,9 @@\n   padding-top: 72px;\n   padding-left: 16px;\n   padding-bottom: 40px;\n   padding-right: 16px;\n-  left: 0;\n-  top: 0;\n+ \n   z-index: 999999999;\n   width: 100%;\n   height: 100%;\n   background-color: #fff;\n"
+                },
+                {
+                    "date": 1695379420629,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,10 @@\n   padding-top: 72px;\n   padding-left: 16px;\n   padding-bottom: 40px;\n   padding-right: 16px;\n- \n+  left: 0;\n+  top: 0;\n   z-index: 999999999;\n   width: 100%;\n   height: 100%;\n   background-color: #fff;\n"
+                },
+                {
+                    "date": 1695379573535,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,8 @@\n   z-index: 999999999;\n   width: 100%;\n   height: 100%;\n   background-color: #fff;\n-  padding: 0 16px;\n   transform: translateX(100%);\n   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);\n }\n .mobile-menu.is-open {\n"
+                },
+                {
+                    "date": 1695379687416,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,8 @@\n }\n \n .mobile-menu-list {\n   display: flex;\n-\n   flex-direction: column;\n   gap: 40px;\n }\n .mobile-menu-studio {\n"
+                },
+                {
+                    "date": 1695379928204,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n }\n .mobile-menu-portfolio,\n .mobile-menu-contacts {\n   font-size: 36px;\n-  font-style: normal;\n+  /* font-style: normal; */\n   font-weight: 700;\n   line-height: 1.11; /* 111.111% */\n   letter-spacing: 0.02em;\n   color: #2e2f42;\n"
+                },
+                {
+                    "date": 1695379952062,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n }\n .mobile-menu-portfolio,\n .mobile-menu-contacts {\n   font-size: 36px;\n-  /* font-style: normal; */\n+  font-style: normal;\n   font-weight: 700;\n   line-height: 1.11; /* 111.111% */\n   letter-spacing: 0.02em;\n   color: #2e2f42;\n"
+                },
+                {
+                    "date": 1695380271423,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,8 +50,10 @@\n   line-height: 1.11; /* 111.111% */\n   letter-spacing: 0.02em;\n   color: #2e2f42;\n }\n+\n+.mobile-soc\n .contacts-mob {\n   font-size: 20px;\n   font-weight: 500;\n   line-height: 1.2; /* 120% */\n"
+                },
+                {
+                    "date": 1695380288939,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,9 +51,12 @@\n   letter-spacing: 0.02em;\n   color: #2e2f42;\n }\n \n-.mobile-soc\n+.mobile-soc {\n+  ma\n+}\n+\n .contacts-mob {\n   font-size: 20px;\n   font-weight: 500;\n   line-height: 1.2; /* 120% */\n"
+                },
+                {
+                    "date": 1695380364216,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,9 +52,9 @@\n   color: #2e2f42;\n }\n \n .mobile-soc {\n-  ma\n+  margin-top: auto;\n }\n \n .contacts-mob {\n   font-size: 20px;\n@@ -74,7 +74,7 @@\n .icon-list-mobile-menu {\n   display: flex;\n   align-items: center;\n   justify-content: space-between;\n-  padding-top: 48px;\n+  ma-top: 48px;\n   gap: 40px;\n }\n"
+                }
+            ],
+            "date": 1695327910192,
+            "name": "Commit-0",
+            "content": ".mobile-menu {\n    position: fixed;\n    left: 0;\n    top: 0;\n    z-index: 999999999;\n    width: 100%;\n    height: 100%;\n    background-color: #fff; \n    padding: 0 16px;\n    transform: translateX(100%);\n    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);\n}\n.mobile-menu.is-open {\n    transform: translateX(0%);\n}\n\n.mobile-menu-close-btn {\n    position: absolute;\n    top: 24px;\n    right: 24px;\n    border: none;\n    background-color: transparent;\n    padding: 0;\n    line-height: 0;\n}\n\n.mobile-menu-list {\n    display: flex;\n    padding-top: 72px;\n    padding-bottom: 168px;\n    flex-direction: column;\n    gap: 40px;\n}\n.mobile-menu-studio {\n    font-size: 36px;\n    font-weight: 700;\n    line-height: 1.11; /* 111.111% */\n    letter-spacing: 0.02em;\n    text-transform: capitalize; \n    color: #404bbf; \n    \n}\n.mobile-menu-portfolio,\n.mobile-menu-contacts {\n    font-size: 36px;\n    font-weight: 700;\n    line-height: 1.11; /* 111.111% */\n    letter-spacing: 0.02em;\n    text-transform: capitalize; \n    color: #2e2f42; \n}\n.contacts-mob {\nfont-size: 20px;\nfont-weight: 500;\nline-height: 1.2; /* 120% */\nletter-spacing: 0.02em;\ncolor: #4D5AE5;\n}\n.contacts-email {\nfont-size: 20px;\nfont-weight: 500;\nline-height: 1.2; /* 120% */\nletter-spacing: 0.02em;\ncolor: #434455;\npadding-bottom: 24px;\n}\n.icon-list-mobile-menu {\n    display: flex;\n  align-items: center;\n  justify-content: space-between;\n  padding-top: 48px;\n  gap: 40px;\n}"
+        }
+    ]
+}
