@@ -1,64 +1,70 @@
 @media screen and (max-width: 767px) {
-.hero-section {
-  background-color: var(--color-primary);
-  text-align: center;
-  padding-top: 72px;
-  padding-bottom: 72px;
-  background: var(--color-primary);
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    -webkit-image-set(
-        url(../../images/images-mobile/mhero-office-mob.jpg) 1x,
-        url(../../images/images-mobile/mhero-office-mob@2x.jpg) 2x
+  .hero-section {
+    background-color: var(--color-primary);
+    text-align: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    background: var(--color-primary);
+    background-size: cover 320px 432px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
       ),
-      image-set(
-        url(../../images/images-mobile/mhero-office-mob.jpg) 1x,
-        url(../../images/images-mobile/mhero-office-mob@2x.jpg) 2x
-      );
-  background-size: cover 320px 432px;
-  background-repeat: no-repeat;
-  background-position: center;
+      url(../../images/images-mobile/mhero-office-mob.jpg);
+  }
 
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../../images/images-mobile/mhero-office-mob@2x.jpg);
+    }
+  }
+
+  .hero-title {
+    display: flex;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: var(--color-hero);
+    margin-bottom: 72px;
+    text-align: center;
+    max-width: 190px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .hero-button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    color: var(--color-hero);
+    background-color: var(--color-brand);
+    padding: 16px 32px;
+    margin: 0;
+    gap: 10px;
+    border-radius: 4px;
+    min-width: 169px;
+    height: 56px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .hero-button:hover,
+  .hero-button:focus {
+    background-color: var(--color-active);
+  }
 }
-.hero-title {
-  display: flex;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
-  color: var(--color-hero);
-  margin-bottom: 72px;
-  text-align: center;
-  max-width: 190px;
-  margin-right: auto;
-  margin-left: auto;
-}
-.hero-button {
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  text-align: center;
-  cursor: pointer;
-  border: none;
-  color: var(--color-hero);
-  background-color: var(--color-brand);
-  padding: 16px 32px;
-  margin: 0;
-  gap: 10px;
-  border-radius: 4px;
-  min-width: 169px;
-  height: 56px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.hero-button:hover,
-.hero-button:focus {
-  background-color: var(--color-active);
-}
-}
+
 @media screen and (min-width: 768px) and (max-width: 1157px) {
   .hero-section {
     background-color: var(--color-primary);
@@ -66,21 +72,26 @@
     padding-top: 112px;
     padding-bottom: 112px;
     background: var(--color-primary);
+    background-size: cover 768px 436px;
+    background-repeat: no-repeat;
+    background-position: center;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      -webkit-image-set(
-        url(../../images/images-tablet/thero-office.jpg) 1x,
-        url(../../images/images-tablet/thero-office@2x.jpg) 2x
-      ),
-      image-set(
-        url(../../images/images-tablet/thero-office.jpg) 1x,
-        url(../../images/images-tablet/thero-office@2x.jpg) 2x
-      );
-    background-size: cover 768px 436px;
-    background-repeat: no-repeat;
-    background-position: center;
+      url(../../images/images-tablet/thero-office.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../../images/images-tablet/thero-office@2x.jpg);
+    }
   }
 
   .hero-title {
@@ -119,29 +130,36 @@
     background-color: var(--color-active);
   }
 }
+
 @media screen and (min-width: 1158px) {
-.hero-section {
+  .hero-section {
     background-color: var(--color-primary);
     text-align: center;
     padding-top: 188px;
     padding-bottom: 188px;
     background: var(--color-primary);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      -webkit-image-set(
-        url(../../images/hero-office.jpg) 1x,
-        url(../../images/desctop2x/hero-office2@x.jpg) 2x
-      ),
-      image-set(
-        url(../../images/hero-office.jpg) 1x,
-        url(../../images/desctop2x/hero-office2@x.jpg) 2x
-      );
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+      url(../../images/hero-office.jpg);
   }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../../images/desctop2x/hero-office2@x.jpg);
+    }
+  }
+
   .hero-title {
     font-size: 56px;
     font-weight: 700;
